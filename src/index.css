@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/* الوضع الفاتح — Plum and magenta */
+:root {
+  --bg: #ecdfcc;
+  --card: #fffdf8;
+  --ink: #1c1416;
+  --soft: #5a4f50;
+  --accent: #9b1d3a;
+  --accent2: #b23a55;
+  --line: rgba(28, 20, 22, 0.14);
+  --glow: rgba(155, 29, 58, 0.06);
+  --glow2: rgba(28, 20, 22, 0.03);
+}
+
+/* الوضع الداكن */
+.dark {
+  --bg: #1a1415;
+  --card: #261c1e;
+  --ink: #f1e8d8;
+  --soft: #bfb2a0;
+  --accent: #e5617c;
+  --accent2: #f0a0b2;
+  --line: rgba(241, 232, 216, 0.16);
+  --glow: rgba(229, 97, 124, 0.1);
+  --glow2: rgba(241, 232, 216, 0.03);
+}
+
+/* نعرّف الأسماء لـ Tailwind */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-soft: var(--soft);
+  --color-accent: var(--accent);
+  --color-accent2: var(--accent2);
+  --color-line: var(--line);
+
+  --font-display: "DM Serif Display", "Cairo", serif;
+  --font-body: "DM Sans", "Cairo", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display font-normal;
+  }
+
+  /* توهّج ناعم جدًا في الخلفية */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background:
+      radial-gradient(55% 45% at 12% 8%, var(--glow), transparent 70%),
+      radial-gradient(50% 40% at 92% 70%, var(--glow), transparent 70%);
+  }
+
+    /* لون التحديد بالماوس */
+  ::selection {
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  /* إطار واضح لما حد يتنقل بالكيبورد */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+}
