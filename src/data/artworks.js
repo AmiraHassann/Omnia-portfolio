@@ -5,7 +5,7 @@ const artworks = [
   {
     "id": 1,
     "category": "paintings",
-    "image": "artwork-01.jpg",
+    "image": "artwork-01.webp",
     "title": {
       "en": "How We Produce When We Bloom",
       "ar": "كيف ننتج عندما نزهر"
@@ -25,7 +25,7 @@ const artworks = [
   {
     "id": 2,
     "category": "paintings",
-    "image": "artwork-02.jpg",
+    "image": "artwork-02.webp",
     "title": {
       "en": "Architectural Identity of the Self",
       "ar": "الهوية المعمارية للذات"
@@ -45,7 +45,7 @@ const artworks = [
   {
     "id": 3,
     "category": "paintings",
-    "image": "artwork-03.jpg",
+    "image": "artwork-03.webp",
     "title": {
       "en": "Rooted",
       "ar": "جذور"
@@ -65,7 +65,7 @@ const artworks = [
   {
     "id": 4,
     "category": "paintings",
-    "image": "artwork-04.jpg",
+    "image": "artwork-04.webp",
     "title": {
       "en": "Master copy of “Portrait of a Woman” by Eugenio Carmi",
       "ar": "نسخة دراسية من لوحة «بورتريه امرأة»"
@@ -85,7 +85,7 @@ const artworks = [
   {
     "id": 5,
     "category": "paintings",
-    "image": "artwork-05.jpg",
+    "image": "artwork-05.webp",
     "title": {
       "en": "Tanoura",
       "ar": "تنورة"
@@ -105,7 +105,7 @@ const artworks = [
   {
     "id": 6,
     "category": "paintings",
-    "image": "artwork-06.jpg",
+    "image": "artwork-06.webp",
     "title": {
       "en": "Memory of Colors",
       "ar": "ذاكرة الألوان"
@@ -125,7 +125,7 @@ const artworks = [
   {
     "id": 7,
     "category": "drawing",
-    "image": "artwork-07.jpg",
+    "image": "artwork-07.webp",
     "title": {
       "en": "Pencil portrait study on paper",
       "ar": "دراسة بورتريه بالقلم الرصاص على ورق"
@@ -145,7 +145,7 @@ const artworks = [
   {
     "id": 8,
     "category": "drawing",
-    "image": "artwork-08.jpg",
+    "image": "artwork-08.webp",
     "title": {
       "en": "Ballerina",
       "ar": "باليرينا"
@@ -165,7 +165,7 @@ const artworks = [
   {
     "id": 9,
     "category": "paintings",
-    "image": "artwork-09.jpg",
+    "image": "artwork-09.webp",
     "title": {
       "en": "Mona Lisa",
       "ar": "موناليزا"
@@ -185,7 +185,7 @@ const artworks = [
   {
     "id": 10,
     "category": "islamic",
-    "image": "artwork-10.jpg",
+    "image": "artwork-10.webp",
     "title": {
       "en": "Geometric Illusion",
       "ar": "تكوين هندسي"
@@ -205,7 +205,7 @@ const artworks = [
   {
     "id": 11,
     "category": "islamic",
-    "image": "artwork-11.jpg",
+    "image": "artwork-11.webp",
     "title": {
       "en": "Islamic Architecture",
       "ar": "عمارة إسلامية"
@@ -225,7 +225,7 @@ const artworks = [
   {
     "id": 12,
     "category": "islamic",
-    "image": "artwork-12.jpg",
+    "image": "artwork-12.webp",
     "title": {
       "en": "Floral Fretwork",
       "ar": "زخرفة نباتية مفرغة"
@@ -245,7 +245,7 @@ const artworks = [
   {
     "id": 13,
     "category": "islamic",
-    "image": "artwork-13.jpg",
+    "image": "artwork-13.webp",
     "title": {
       "en": "Floral Motif",
       "ar": "وحدة زخرفية نباتية"
@@ -265,7 +265,7 @@ const artworks = [
   {
     "id": 14,
     "category": "islamic",
-    "image": "artwork-14.jpg",
+    "image": "artwork-14.webp",
     "title": {
       "en": "Minaret & Mashrabiya",
       "ar": "مئذنة ومشربية"
@@ -285,7 +285,7 @@ const artworks = [
   {
     "id": 15,
     "category": "islamic",
-    "image": "artwork-15.jpg",
+    "image": "artwork-15.webp",
     "title": {
       "en": "Side Profile Portrait",
       "ar": "بورتريه جانبي"
