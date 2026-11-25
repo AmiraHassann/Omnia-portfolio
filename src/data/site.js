@@ -3,7 +3,7 @@
 export const profile = {
   name: "Omnia",
   role: "Artist and art education teacher",
-  heroImage: "/images/hero.png",
+  heroImage: "/images/hero.webp",
   intro: [
     "Artist and art education teacher with a Bachelor’s degree in Art Education from the Faculty of Specific Education.",
     "My work moves between painting, drawing and design, and between canvas, paper, wood, metal and clay.",
