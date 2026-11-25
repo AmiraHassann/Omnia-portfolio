@@ -1,3 +1,4 @@
+import { asset } from "../utils/asset"
 export default function ArtworkCard({ artwork, onClick }) {
   return (
     <button
@@ -7,7 +8,7 @@ export default function ArtworkCard({ artwork, onClick }) {
     >
       <div className="overflow-hidden rounded-2xl bg-card">
         <img
-          src={`/images/${artwork.image}`}
+          src={asset(`/images/${artwork.image}`)}
           alt={artwork.alt}
           width={artwork.width}
           height={artwork.height}

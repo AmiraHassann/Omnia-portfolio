@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import { motion } from "framer-motion"
 import { FiChevronLeft, FiChevronRight, FiX } from "react-icons/fi"
+import { asset } from "../utils/asset"
 
 export default function Lightbox({ works, index, onClose, onChange }) {
   const art = works[index]
@@ -84,7 +85,7 @@ export default function Lightbox({ works, index, onClose, onChange }) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3 }}
-            src={`/images/${art.image}`}
+            src={asset(`/images/${art.image}`)}
             alt={art.alt}
             className="max-h-[45vh] w-auto max-w-full rounded-lg object-contain md:max-h-[80vh]"
           />

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { profile } from "../data/site"
 import Button from "../components/Button"
+import { asset } from "../utils/asset"
 
 export default function Hero() {
   return (
@@ -40,7 +41,7 @@ export default function Hero() {
       >
         <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-3xl border border-accent/40" />
         <img
-          src={profile.heroImage}
+          src={asset(profile.heroImage)}
           alt="Omnia"
           className="relative aspect-4/3 w-full rounded-3xl object-cover"
         />
