@@ -10,6 +10,7 @@ export default function About() {
         </p>
       </Reveal>
 
+      
       <div className="grid gap-12 md:grid-cols-[1.3fr_1fr] md:items-end">
         {/* Quote */}
         <Reveal>
