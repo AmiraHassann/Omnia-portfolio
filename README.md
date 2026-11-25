@@ -1,16 +1,84 @@
-# React + Vite
+# Omnia Artist Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A bilingual, responsive artist portfolio built for Omnia, an artist and art education teacher. The site showcases paintings, drawing and design, Islamic arts, and handmade works.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive gallery with artwork category filtering
+- Lightbox for viewing artworks at full size
+- English and Arabic artwork information
+- About, work, and contact sections
+- Dark and light themes
+- Smooth section navigation and reveal animations
+- Reduced-motion support
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- Framer Motion
+- React Icons
+- ESLint
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Requirements
+
+- Node.js 20 or later
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+Preview the production build with:
+
+```bash
+npm run preview
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```text
+src/
+  components/       Reusable UI components
+  data/             Profile and artwork content
+  hooks/            Reusable React hooks
+  sections/         Main page sections
+public/images/      Artwork and hero images
+```
+
+## Updating the Portfolio
+
+- Edit the artist profile, navigation, and categories in `src/data/site.js`.
+- Add or update artwork entries in `src/data/artworks.js`.
+- Place new artwork images in `public/images/`.
+- Rebuild and lint the project after content changes.
+
+## Contact
+
+- Email: Omniashvkri@outlook.com
+- Phone: +20 109 319 5143
